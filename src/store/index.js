@@ -26,7 +26,8 @@ const store = createStore({
     },
     cancelUpdate(state , bookmark){
         bookmark.update = false;
-        const matched = state.bookmarks.filter(b => b.id === bookmark.id)
+        state.updatedBookmark.update = false
+        const matched = state.bookmarks.findIndex(b => b.id === bookmark.id)
         state.bookmarks[matched] = {...state.updatedBookmark}
     },
     updateDB(state , bookmark){
