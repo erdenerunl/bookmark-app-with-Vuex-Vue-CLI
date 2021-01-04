@@ -1,0 +1,22 @@
+{
+  "bookmarks": [
+    {
+      "title": "deneme 2",
+      "description": "deneme 2",
+      "url": "deneme 2",
+      "id": 1
+    },
+    {
+      "title": "deneme-3",
+      "description": "deneme-3",
+      "url": "deneme-3",
+      "id": 2
+    },
+    {
+      "title": "deneeme 4",
+      "description": "deemee 4",
+      "url": "deneeme4",
+      "id": 3
+    }
+  ]
+}

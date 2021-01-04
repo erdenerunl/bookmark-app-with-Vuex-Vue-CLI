@@ -1,26 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <app-navbar />
+  <add-bookmark />
+  <bookmark-list />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AddBookmark from './components/AddBookmark.vue'
+import AppNavbar from './components/AppNavbar.vue'
+import BookmarkList from './components/BookmarkList.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AppNavbar,
+    AddBookmark,
+    BookmarkList
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
