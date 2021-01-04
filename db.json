@@ -1,22 +1,32 @@
 {
   "bookmarks": [
     {
-      "title": "deneme 2",
-      "description": "deneme 2",
-      "url": "deneme 2",
+      "title": "de",
+      "description": "ded",
+      "url": "eded",
+      "update": false,
       "id": 1
     },
     {
-      "title": "deneme-3",
-      "description": "deneme-3",
-      "url": "deneme-3",
+      "title": "evettttttt",
+      "description": "asd",
+      "url": "asda",
+      "update": false,
       "id": 2
     },
     {
-      "title": "deneeme 4",
-      "description": "deemee 4",
-      "url": "deneeme4",
+      "title": "sad",
+      "description": "sd",
+      "url": "sd",
+      "update": false,
       "id": 3
+    },
+    {
+      "title": "yuok",
+      "description": "wer",
+      "url": "wer",
+      "update": false,
+      "id": 4
     }
   ]
 }

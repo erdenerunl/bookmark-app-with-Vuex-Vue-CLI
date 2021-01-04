@@ -3,9 +3,9 @@
     <div class="my-3 container d-flex justify-content-center bg-primary input-con">
       <div class="form-group text-center">
         <label class="col-form-label my-2 inputbox" for="inputDefault">Add your bookmark below </label>
-        <input type="text" class="form-control" v-model="bookmarkData.title" placeholder="Bookmark Title..." id="inputDefault" />
-        <input type="text" class="form-control" v-model="bookmarkData.description" placeholder="Bookmark Description..." id="inputDefault" />
-        <input type="text" class="form-control" v-model="bookmarkData.url" placeholder="Bookmark Url..." id="inputDefault" />
+        <input type="text" class="form-control" v-model="bookmarkData.title" placeholder="Bookmark Title..." />
+        <input type="text" class="form-control" v-model="bookmarkData.description" placeholder="Bookmark Description..." />
+        <input type="text" class="form-control" v-model="bookmarkData.url" placeholder="Bookmark Url..." />
         <button type="button" class="btn btn-success" @click="onSave">Success</button>
       </div>
     </div>
@@ -20,6 +20,7 @@ export default {
         title: "",
         description: "",
         url: "",
+        update: false
       },
     };
   },

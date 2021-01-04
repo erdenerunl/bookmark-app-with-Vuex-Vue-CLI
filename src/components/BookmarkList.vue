@@ -1,7 +1,10 @@
 <template>
   <div>
       <div class="container">
-          <bookmark-item v-for="bookmark in bookmarkList" :key="bookmark.id" :bookmark="bookmark" />
+          <div class="row">
+              <bookmark-item v-for="bookmark in bookmarkList" :key="bookmark.id" :bookmark="bookmark" />
+          </div>
+          
       </div>
   </div>
 </template>
@@ -12,6 +15,9 @@ import { mapGetters } from 'vuex'
 export default {
     components : {
         BookmarkItem
+    },
+    created(){
+        this.$store.dispatch('initApp')
     },
     computed : {
         ...mapGetters({
